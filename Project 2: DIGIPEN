@@ -1,10 +1,16 @@
+// Learning Processing
+// Daniel Shiffman
+// http://www.learningprocessing.com
+
+// Example 16-11: Simple color tracking
+
 import processing.video.*;
 float x;
 float y;
 float px;
 float py;
 float easing = 0.05;
-color drawColor;
+
 
 
 
@@ -14,7 +20,7 @@ Capture video;
 
 // A variable for the color we are searching for.
 color trackColor;
-color trackColor2;
+
 
 
 void setup() {
@@ -99,7 +105,6 @@ println(trackColor);
     line(x, y, px, py);
     py=y;
     px=x;
-    trackColor2=color(0,0,0);
   
  }
 

@@ -39,7 +39,7 @@ void setup() {
 }
 
 void draw() {
-    trackColor2 = color(162,29,62);
+ 
   // Capture and display the video
   if (video.available()) {
     video.read();
